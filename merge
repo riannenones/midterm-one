@@ -1,0 +1,8 @@
+git checkout testing
+git merge development
+
+git checkout development
+git merge testing
+
+git checkout production
+git merge testing
